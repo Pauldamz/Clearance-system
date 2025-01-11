@@ -1,0 +1,66 @@
+<nav class="navbar">
+    <div class="dropdown">
+      <button class="dropbtn">Menu</button>
+      <div class="dropdown-content">
+        <a href="dashboard.html">Dashboard</a>
+        <a href="departments.html">Departments</a>
+        <a href="profile.html">Profile</a>
+        <a href="index.php">Logout</a>
+        <a href="https://www.jptsportal.com/login.php">Official Dashboard</a>
+      </div>
+    </div>
+  </nav>
+  
+  <style>
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .navbar .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .navbar .dropdown:hover .dropbtn {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .navbar .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .navbar .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .navbar .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .navbar .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  </style>
